@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-            <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>lee 홈페이지</title>
   </head>
   <body>
-    안녕하세요 hello world
+    안녕하세요
+    <!-- form요소 -->
+    <form>
+      <!-- 사용자 텍스트 입력 요소 -->
+      <h3>로그인</h3>
+      <span>ID:</span>
+      <input type="text" name="userid" placeholder="ID를 입력해주세요" required/>
+      <br>
+      <!-- 패스워드 입력 폼 만들기 -->
+      <span>Password:</span>
+      <input type="password" name=" userpassword" placeholder="패스워드를 입력해주세요" required/>
+      <!-- 제출버튼 -->
+      <!-- <input type="submit" value="로그인"/> -->
+      <button type="submit">로그인</button>
+      
+    </form>
+    <form>
+      <h3>성별</h3>
+      <input id="male" type="radio" name="gender" value="male" checked />
+      <label for="male">남자</label>
+      <input id ="female" type="radio" name="gender" value="female" />
+      <label for="female">여자</label>
+      
+      <h3>관심사</h3>
+      <input id="travel" type="checkbox" name="interests"  value="travel" checked/>
+      <label for="travel">여행</label>
+      <input id="tech" type="checkbox" name="interests"  value="tech" />
+      <label for="tech">기술</label>
+      <input id="money" type="checkbox" name="interests"  value="money" />
+      <label for="money">돈</label>
+    </form>
+    <p>지금은 HTML 시간입니다. </p>
+    <P>지금은 HTML 시간입니다.</P>
+    <br>줄바꿈
+    <!--여기는 주석부분입니다. 하하하.-->
+    <!-- 주석 단축키:  ctrl + / -->
+    <!-- 박스태크 -->
+    <div>
+      <a href="https://www.naver.com" target="_blank">네이버로 페이지 이동</a>
+      <br>
+      <a href="https://www.google.com/" target="_blank">구글 페이지 이동</a>
+    </div>
+    <!-- 텍스트 관련 태크 -->
+     <div>
+      <h1>h1 제목입니다.</h1>
+      <h2>h2 제목입니다.</h2>
+      <h3>h3 제목입니다.</h3>
+      <h4>h4 제목입니다.</h4>   
+      <h5>h5 제목입니다.</h5>   
+      <h6>h6 제목입니다.</h6>
+      
+      <hr />
+      <p>
+        Lorem, ipsum <span style="color:red">dolor</span> sit amet consectetur <strong> elit.</strong> Eveniet, maxime.
+      </p>
+      
+     </div>
+     <!-- 이미지 태그 -->
+      <div>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTEwMjhfMjUw%2FMDAxNzYxNjIwMTQ0Mjkz.nYmoFLmWfgM43SuOooDgZPhoKmro5GA0oy4CaoMcGOYg.y1Rj3O5KRJ_DybxrKBdUfSofQvIaTq81pxLG_Hnpu3gg.PNG%2Fimage.png&type=a340" alt="아이유 이미지" width="200">
+      </div>
+    <!--리스트 태크  -->
+      <div>
+        <h3>웹 기술의 3요소</h3>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+        <h3>내가 좋아하는 가수</h3>
+        <ul>
+          <li>아이유</li>
+          <li>BTS</li>
+          <li>콜드플레이</li>
+        </ul>
+      </div>
   </body>
 </html>
